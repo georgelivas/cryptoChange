@@ -1,0 +1,6 @@
+framework module Pods_bitCoin_exchange {
+  umbrella header "Pods-bitCoin exchange-umbrella.h"
+
+  export *
+  module * { export * }
+}
