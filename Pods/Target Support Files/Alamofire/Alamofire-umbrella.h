@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CryptoCurrencyKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char CryptoCurrencyKitVersionString[];
+FOUNDATION_EXPORT double AlamofireVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlamofireVersionString[];
 

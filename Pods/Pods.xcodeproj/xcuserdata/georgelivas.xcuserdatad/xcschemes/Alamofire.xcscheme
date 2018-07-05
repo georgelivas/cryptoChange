@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D1AD4699FDF78F41BF5EBBF6F3833CA"
-               BlueprintName = "CryptoCurrencyKit"
+               BlueprintIdentifier = "88E9EC28B8B46C3631E6B242B50F4442"
+               BlueprintName = "Alamofire"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "CryptoCurrencyKit.framework">
+               BuildableName = "Alamofire.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+// import Alamofire
 
 class ViewController: UIViewController {
 
@@ -17,7 +18,39 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var currencySelector: UISegmentedControl!
     
-    let apiURL = URL(string: "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD")
+    
+    // let urlString = URL(string: "https://api.cryptonator.com/api/ticker/btc-usd")
+   
+    
+//    func makeGetCallWithAlamofire() {
+//        let todoEndpoint: String = "https://api.cryptonator.com/api/ticker/btc-usd"
+//        Alamofire.request(todoEndpoint)
+//            .responseJSON { response in
+//                // check for errors
+//                guard response.result.error == nil else {
+//                    // got an error in getting the data, need to handle it
+//                    print("error calling GET on /todos/1")
+//                    print(response.result.error!)
+//                    return
+//                }
+//
+//                // make sure we got some JSON since that's what we expect
+//                guard let json = response.result.value as? [String: Any] else {
+//                    print("didn't get todo object as JSON from API")
+//                    if let error = response.result.error {
+//                        print("Error: \(error)")
+//                    }
+//                    return
+//                }
+//
+//                // get and print the title
+//                guard let todoTitle = json["title"] as? String else {
+//                    print("Could not get todo title from JSON")
+//                    return
+//                }
+//                print("The title is: " + todoTitle)
+//        }
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,25 +119,5 @@ class ViewController: UIViewController {
             calculate()
         }
     }
-    
-//    guard let data = data, error == nil else {
-//    completion(nil)
-//    print(error?.localizedDescription ?? "")
-//    return
-//    }
-    
-    
-//    do {
-//    guard let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any],
-//    let value = json["USD"] as? NSNumber else {
-//    completion(nil)
-//    return
-//    }
-//    completion(value)
-//    } catch {
-//    completion(nil)
-//    print(error.localizedDescription)
-//    }
-//
 }
 

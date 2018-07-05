@@ -1,16 +1,16 @@
 PODS:
-  - CryptoCurrencyKit (0.3.1)
+  - Alamofire (4.7.2)
 
 DEPENDENCIES:
-  - CryptoCurrencyKit
+  - Alamofire (~> 4.7)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - CryptoCurrencyKit
+    - Alamofire
 
 SPEC CHECKSUMS:
-  CryptoCurrencyKit: 5c78da2dfb845e2feddb519b56169ab39f117ca1
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
 
-PODFILE CHECKSUM: 8844dff0764221a708575eae83c32549ba0e853e
+PODFILE CHECKSUM: b3baf5f82436b8acec55238809e3f04309f11468
 
 COCOAPODS: 1.5.3
